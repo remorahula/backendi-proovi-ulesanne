@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '370e0e93890deb41afb375faa8ebe7b8f31bfd0b',
+    'reference' => '4d711666eebc218bb538f56d96e6209183d6a7af',
     'name' => '__root__',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '370e0e93890deb41afb375faa8ebe7b8f31bfd0b',
+      'reference' => '4d711666eebc218bb538f56d96e6209183d6a7af',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -500,6 +500,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'ffaee624a20a462ec2da82942d3c9d8fc8dd1421',
+    ),
+    'symfony/phpunit-bridge' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '92a76ca5e64effd41ce111b8f476144dfa29f1f0',
     ),
     'symfony/polyfill-ctype' => 
     array (

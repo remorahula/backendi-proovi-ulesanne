@@ -2,6 +2,8 @@
 
 namespace App\PhpCode\Generator;
 
+use App\PhpCode\Interfaces\TransformerInterface;
+
 class StringGenerator implements TransformerInterface
 {
 

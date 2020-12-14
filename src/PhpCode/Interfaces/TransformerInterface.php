@@ -1,6 +1,6 @@
 <?php
 
-namespace App\PhpCode\Generator;
+namespace App\PhpCode\Interfaces;
 
 interface TransformerInterface
 {

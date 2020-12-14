@@ -191,8 +191,6 @@
     <service id="App\PhpCode\Generator\Output" class="App\PhpCode\Generator\Output" autowire="true" autoconfigure="true"/>
     <service id="App\PhpCode\Generator\Rot13Converter" class="App\PhpCode\Generator\Rot13Converter" autowire="true" autoconfigure="true"/>
     <service id="App\PhpCode\Generator\StringGenerator" class="App\PhpCode\Generator\StringGenerator" autowire="true" autoconfigure="true"/>
-    <service id="App\PhpCode\Interfaces\Rot13Interface" class="App\PhpCode\Interfaces\Rot13Interface" autowire="true" autoconfigure="true"/>
-    <service id="App\PhpCode\Interfaces\TransformerInterface" class="App\PhpCode\Interfaces\TransformerInterface" autowire="true" autoconfigure="true"/>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory" public="false"/>
     <service id="response_listener" class="Symfony\Component\HttpKernel\EventListener\ResponseListener" public="false">
       <tag name="kernel.event_subscriber"/>

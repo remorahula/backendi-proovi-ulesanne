@@ -60,7 +60,7 @@ class __TwigTemplate_4cd9cd522cf472ed7de69a8cb16dd2c54e7c1accbd98bb788e26f8a03f4
         echo "
         <br/>
         <br/>
-        this is ROT13 random Array ";
+        this is ROT13 random Array: ";
         // line 11
         echo twig_escape_filter($this->env, (isset($context["html2"]) || array_key_exists("html2", $context) ? $context["html2"] : (function () { throw new RuntimeError('Variable "html2" does not exist.', 11, $this->source); })()), "html", null, true);
         echo "
@@ -157,7 +157,7 @@ class __TwigTemplate_4cd9cd522cf472ed7de69a8cb16dd2c54e7c1accbd98bb788e26f8a03f4
         {{html}}
         <br/>
         <br/>
-        this is ROT13 random Array {{html2}}
+        this is ROT13 random Array: {{html2}}
     </head>
     <body>
         {% block body %}{% endblock %}

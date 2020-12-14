@@ -2,6 +2,8 @@
 
 namespace App\PhpCode\Generator;
 
+use App\PhpCode\Interfaces\Rot13Interface;
+
 class Rot13Converter implements Rot13Interface
 {
     public function convert($string)
