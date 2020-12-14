@@ -31,10 +31,5 @@ services:
     # please note that last definitions always *replace* previous ones
 
 
-    App\helper\ValidatorInterface: '@App\helper\AdminValidator'
-    App\helper\TransformerInterface: '@App\helper\StringGenerator'
-    App\helper\TransformerInterface $array: '@App\helper\ArrayGenerator'
-
-
     
 
